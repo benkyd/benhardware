@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CN3791
+D ic
+K
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3791.pdf
+$ENDCMP
+#
+#End Doc Library

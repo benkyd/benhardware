@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LR1110IMLTRT")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_LR1110IMLTRT/LR1110IMLTRT.kicad_sym")(options "")(descr ""))
+  (lib (name "CN3791")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_CN3791/CN3791.kicad_sym")(options "")(descr ""))
+  (lib (name "SKY65313-21")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_SKY65313-21/SKY65313-21.kicad_sym")(options "")(descr ""))
+  (lib (name "AS169-73LF")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_AS169-73LF/AS169-73LF.kicad_sym")(options "")(descr ""))
+  (lib (name "Wio-WM1110")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_Wio-WM1110/Wio-WM1110.kicad_sym")(options "")(descr ""))
+  (lib (name "CH224K")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_CH224K/CH224K.kicad_sym")(options "")(descr ""))
+  (lib (name "INA220AIDGSR")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_INA220AIDGSR/INA220AIDGSR.kicad_sym")(options "")(descr ""))
+)

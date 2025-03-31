@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA220AIDGSR
+D 26V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor
+K
+F http://componentsearchengine.com/Datasheets/1/INA220AIDGSR.pdf
+$ENDCMP
+#
+#End Doc Library

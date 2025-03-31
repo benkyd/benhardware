@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Wio-WM1110
+D LoRa Wireless Module - Powered by Semtech
+K
+F https://files.seeedstudio.com/products/SenseCAP/Wio-WM1110/Wio-WM1110_Module_Datasheet_V1.3.pdf
+$ENDCMP
+#
+#End Doc Library
