@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HMC544AETR
+D ANALOG DEVICES - HMC544AETR - RF Switch IC, Positive Control T/R Switch, DC to 4 GHz, +3 V & +5 V, SOT-26-6
+K
+F https://ms.componentsearchengine.com/Datasheets/2/HMC544AETR.pdf
+$ENDCMP
+#
+#End Doc Library

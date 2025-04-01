@@ -8,4 +8,5 @@
   (lib (name "CH224K")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_CH224K/CH224K.kicad_sym")(options "")(descr ""))
   (lib (name "INA220AIDGSR")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_INA220AIDGSR/INA220AIDGSR.kicad_sym")(options "")(descr ""))
   (lib (name "XA2163")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_XA2163/XA2163.kicad_sym")(options "")(descr ""))
+  (lib (name "HMC544AETR")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_HMC544AETR/HMC544AETR.kicad_sym")(options "")(descr ""))
 )
