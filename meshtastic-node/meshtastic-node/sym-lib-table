@@ -7,4 +7,5 @@
   (lib (name "Wio-WM1110")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_Wio-WM1110/Wio-WM1110.kicad_sym")(options "")(descr ""))
   (lib (name "CH224K")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_CH224K/CH224K.kicad_sym")(options "")(descr ""))
   (lib (name "INA220AIDGSR")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_INA220AIDGSR/INA220AIDGSR.kicad_sym")(options "")(descr ""))
+  (lib (name "XA2163")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_XA2163/XA2163.kicad_sym")(options "")(descr ""))
 )
