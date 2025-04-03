@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "LIB_LR1110IMLTRT")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_LR1110IMLTRT.pretty")(options "")(descr ""))
   (lib (name "LR1110")(type "KiCad")(uri "${KIPRJMOD}/lib/LR1110.pretty")(options "")(descr ""))
-  (lib (name "TPS")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_TPS2121RUXT")(options "")(descr ""))
+  (lib (name "meshtastic")(type "KiCad")(uri "${KIPRJMOD}/lib/meshtastic_node.pretty")(options "")(descr ""))
 )
