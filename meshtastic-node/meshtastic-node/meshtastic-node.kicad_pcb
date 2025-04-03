@@ -1933,15 +1933,14 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020"
+	(footprint "Inductor_SMD:L_SXN_SMDRI124"
 		(layer "F.Cu")
 		(uuid "1aca88f2-f134-4a69-8bbc-3daef51b85bd")
-		(at 76.825 111.0125 90)
-		(descr "Semi-Shielded High Saturation Power Inductor, body 4x4mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-4020")
-		(tags "SMT")
+		(at 78 101.5 90)
+		(descr "Inductor, SXN, SMDRI124, 12.3x12.3x4.5mm, (https://www.sxndz.com/upload/202108/16/202108161607454319.pdf), generated with kicad-footprint-generator gen_inductor.py")
+		(tags "Inductor sxn smdri")
 		(property "Reference" "L1"
-			(at 0 -3 90)
-			(unlocked yes)
+			(at 0 -7.15 90)
 			(layer "F.SilkS")
 			(uuid "8bf634eb-7eeb-415c-b5cf-f8eeed6acd89")
 			(effects
@@ -1952,8 +1951,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 0 3 90)
-			(unlocked yes)
+			(at 0 7.15 90)
 			(layer "F.Fab")
 			(uuid "2538a3e4-9ab7-4fee-8260-9e3f212810af")
 			(effects
@@ -1965,7 +1963,6 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b47528f1-aa95-4232-a88b-60291943ba4d")
@@ -1978,7 +1975,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dcd0f447-c5f8-4366-907c-9766b62066c1")
@@ -1989,124 +1985,197 @@
 				)
 			)
 		)
+		(property "LCSC" "C2929497"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e46f568c-6e68-45b3-b5b0-8d60c69f54b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/82f13ee3-6bfb-48e6-a947-d56420d89774")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0 -2.11)
-			(end 2 -2.11)
+			(start 6.41 -6.41)
+			(end 6.41 -2.96)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1441353a-39ec-4e9f-bc02-2be46063ad2c")
+			(uuid "43ba11c1-3f1d-4c8b-88da-287173ed9dbe")
 		)
 		(fp_line
-			(start -2 2.11)
-			(end 2 2.11)
+			(start -6.41 -6.41)
+			(end 6.41 -6.41)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6c2e0e0-44c2-41ad-85b7-974ddb6b381e")
+			(uuid "74fa89b9-b07f-4bfd-8d22-ebe44c86363a")
 		)
-		(fp_rect
-			(start -2.4 -2.25)
-			(end 2.4 2.25)
+		(fp_line
+			(start -6.41 -6.41)
+			(end -6.41 -2.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d96029a-b45e-445d-a248-8528f6626ffd")
+		)
+		(fp_line
+			(start 6.41 6.41)
+			(end 6.41 2.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a931f81-8fb3-4c4a-aa94-38868221a763")
+		)
+		(fp_line
+			(start -6.41 6.41)
+			(end -6.41 2.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ce7f9be-2f68-40b7-8d8c-d49a9c33f92e")
+		)
+		(fp_line
+			(start -6.41 6.41)
+			(end 6.41 6.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc346d3f-6547-4938-9bf9-6b3890d91d95")
+		)
+		(fp_line
+			(start 6.65 -6.4)
+			(end -6.65 -6.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d3c0b8e7-2f62-4496-84f6-1698bc928c54")
+			(uuid "aa3df6ce-e577-4c2f-9dbd-3f832d18ef2d")
 		)
 		(fp_line
-			(start 2 -2)
-			(end 2 2)
+			(start -6.65 -6.4)
+			(end -6.65 6.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c9dfadb-aab4-4ec2-901e-07243de44516")
+		)
+		(fp_line
+			(start 6.65 6.4)
+			(end 6.65 -6.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ada46e2-50e0-45c7-9986-4fec45fc797f")
+		)
+		(fp_line
+			(start -6.65 6.4)
+			(end 6.65 6.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a42b5ec-2a96-476c-98f5-8ef9e8041719")
+		)
+		(fp_line
+			(start 6.15 -6.15)
+			(end -6.15 -6.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "39058b09-40f6-4cf9-bb06-46b60ef9ffa2")
+			(uuid "57237a72-52b6-419f-8dd9-7527a264185a")
 		)
 		(fp_line
-			(start -1 -2)
-			(end 2 -2)
+			(start -6.15 -6.15)
+			(end -6.15 6.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ede2a610-8b8d-44b7-a36c-c9029f915821")
+			(uuid "663b3729-8b8b-40fa-bd56-23f4dafac62a")
 		)
 		(fp_line
-			(start -1 -2)
-			(end -2 -1)
+			(start 6.15 6.15)
+			(end 6.15 -6.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "41103f73-ece2-4b25-bbf3-ff6cde00ff14")
+			(uuid "9b852c99-dde2-4fe6-9213-c73d8cb93beb")
 		)
 		(fp_line
-			(start -2 -1)
-			(end -2 2)
+			(start -6.15 6.15)
+			(end 6.15 6.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "15ed10af-873f-43e2-b4b6-82ac10c135af")
-		)
-		(fp_line
-			(start -2 2)
-			(end 2 2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4f162457-c7e9-437b-a217-d567345891f9")
+			(uuid "e1590cfe-3132-4acb-b709-10bf4222ed3d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "88d22d43-9475-449b-a6d2-7eb6158043f9")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.075)
+					(size 0.966667 0.966667)
+					(thickness 0.145)
 				)
 			)
 		)
-		(pad "1" smd rect
-			(at -1.55 0 90)
-			(size 1.2 3.3)
+		(pad "1" smd roundrect
+			(at -4.95 0 90)
+			(size 2.9 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.086207)
 			(net 6 "Net-(U1-SW)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b069a4af-f042-4427-9de2-f1e3edf4d351")
 		)
-		(pad "2" smd rect
-			(at 1.55 0 90)
-			(size 1.2 3.3)
+		(pad "2" smd roundrect
+			(at 4.95 0 90)
+			(size 2.9 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.086207)
 			(net 3 "VDD_NRF")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "7c856946-2b71-4499-bc8d-aa27bbe97040")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMDRI124.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2168,6 +2237,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C116461"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c356c55e-90b7-4716-a0a3-f1b789e4711e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2840,6 +2922,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C181255"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b35fb02c-e07b-4dc6-b1fc-0b066b414e0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78729e69-559b-4c9b-ba5e-7d5ae665bf1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3929,6 +4037,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C116461 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c465e5c-7627-47c2-b2b0-67b2a94c6a22")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7133,6 +7254,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2156025"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffd5a76-010a-47be-8293-ba94e7fa0ea8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7b9ddaa1-48bb-430a-b98e-3d80e7c674fa")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
@@ -9895,6 +10029,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C381098"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b52076c-d77b-487d-8a60-0ce91461da27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a003fec7-106a-47b1-beb3-37886a1b006f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13359,6 +13519,32 @@
 				)
 			)
 		)
+		(property "LCSC" "C42420254"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e2f063c-67d4-473a-86d6-30e770ec8e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58701e3c-56cc-4c63-8639-d0ce4e2673dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7fa70f6d-478c-4413-bca4-f8414a66bc57")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
@@ -16210,6 +16396,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2650336"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9ce9193-6328-4541-b19b-6ed85d246eac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21569,6 +21768,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5144140"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2252dcfb-d06c-4a36-8d85-38370ed3406f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d5ea5d59-56b0-43bd-8397-a41f8049e541")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
@@ -24973,6 +25185,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C154992"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9231ef61-3a0f-4940-a53c-6401468c9399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/714c827e-f961-4794-94bb-bb28cdcf6f2e")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
@@ -25368,6 +25593,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c2017a7-11cf-4c46-8b00-43abe10de4e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C970725"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f439f1f-85e7-40be-ab42-f731c17e0a7c")
 			(effects
 				(font
 					(size 1 1)
@@ -26694,6 +26932,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2156025"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fce4c1c4-61e1-401e-84e2-d8b60a094a7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/57364ad1-cd13-46df-8637-cc8856f8d3ce")
 		(sheetname "/")
 		(sheetfile "meshtastic-node.kicad_sch")
@@ -27609,6 +27860,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C92489"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff77c7e3-1165-4628-8012-6f92db51645a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*LGA*2.5x2.5mm*P0.65mm*Clockwise*")
 		(path "/4e4c8d6c-4ffb-4887-974e-d494aba72112")
 		(sheetname "/")
@@ -28009,6 +28273,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10cba12e-e4d2-443b-8dc3-4d0f5a10ede8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C579555"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d60cafd-7a8c-4dd7-bacf-f240c3962989")
 			(effects
 				(font
 					(size 1 1)

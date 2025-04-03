@@ -20865,6 +20865,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C381098"
+			(at 43.18 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 43.18 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6e2d44ba-9897-43a4-adfb-fcc21e91fa57")
 		)
@@ -21827,6 +21845,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C579555"
+			(at 149.86 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23383,6 +23410,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C92489"
+			(at 391.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "593335aa-58e6-4014-b4e1-4053e4f03881")
 		)
@@ -23941,6 +23977,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2156025"
+			(at 379.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "597ce161-362f-4eac-8694-6529a08e119a")
 		)
@@ -24097,6 +24142,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 284.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116461 "
 			(at 284.48 105.41 0)
 			(effects
 				(font
@@ -25824,6 +25878,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C154992"
+			(at 336.55 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d8cce7e-3a01-45cb-9628-2189e36ab4a7")
 		)
@@ -26475,6 +26538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2156025"
+			(at 311.15 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "d0c4a80a-78cc-45f9-ae6b-bd9f89247e26")
 		)
@@ -26573,6 +26645,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C42420254"
+			(at 74.93 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 74.93 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d48dd38c-1ce1-4711-8aa6-79f45eb788f3")
 		)
@@ -26613,7 +26703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-4020"
+		(property "Footprint" "Inductor_SMD:L_SXN_SMDRI124"
 			(at 229.87 101.6 0)
 			(effects
 				(font
@@ -26633,6 +26723,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2929497"
+			(at 229.87 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26958,6 +27057,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 292.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116461"
 			(at 292.1 46.99 0)
 			(effects
 				(font
@@ -29185,6 +29293,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C181255"
+			(at 389.89 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 389.89 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "5665ddda-3ffe-4e7c-af0d-54450d952fd0")
 		)
@@ -30173,6 +30299,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5144140"
+			(at 240.03 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "7eadcedb-7db2-4f0f-a0d9-e867f9d7e181")
 		)
@@ -31039,6 +31174,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C970725"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "e7b0b269-963b-4d13-9ede-33a43c3eecbb")
 		)
@@ -31459,6 +31603,15 @@
 			)
 		)
 		(property "Description" "5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2650336"
 			(at 204.47 104.14 0)
 			(effects
 				(font
