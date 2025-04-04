@@ -11768,16 +11768,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 322.58) (xy 163.83 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6ea4d1-263c-4ff7-b555-dcf081d2e80e")
-	)
-	(wire
-		(pts
 			(xy 60.96 194.31) (xy 62.23 194.31)
 		)
 		(stroke
@@ -12938,16 +12928,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 323.85) (xy 161.29 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e94063b-c88d-41d5-927e-496d495eb992")
-	)
-	(wire
-		(pts
 			(xy 60.96 146.05) (xy 62.23 146.05)
 		)
 		(stroke
@@ -13555,6 +13535,16 @@
 			(type default)
 		)
 		(uuid "56742d58-65e6-40cc-80dc-ee8d2d8279cb")
+	)
+	(wire
+		(pts
+			(xy 163.83 325.12) (xy 163.83 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57074301-e2f9-45d9-a19f-cdea461a3ef5")
 	)
 	(wire
 		(pts
@@ -17378,7 +17368,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 323.85) (xy 161.29 323.85)
+			(xy 149.86 323.85) (xy 158.75 323.85)
 		)
 		(stroke
 			(width 0)
@@ -18194,6 +18184,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USE_ANT_2"
+		(shape input)
+		(at 154.94 364.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c55a9b9-3130-48f7-98b8-ded7d6415e23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 351.2844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19782,6 +19794,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 161.29 323.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f8c319-a38b-466f-8ffe-5ca0745434ab")
+		(property "Reference" "J7"
+			(at 160.7704 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 160.7704 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+			(at 161.29 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 161.29 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "575c2cb8-c888-43ae-bf2d-3d88bb3ec66a")
+		)
+		(pin "1"
+			(uuid "7d566cb9-a517-482f-be03-931f6afb2279")
+		)
+		(instances
+			(project "meshtastic-node"
+				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 370.84 0)
 		(unit 1)
@@ -20416,7 +20496,7 @@
 	)
 	(symbol
 		(lib_id "power:+4V")
-		(at 154.94 364.49 0)
+		(at 33.02 316.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20424,7 +20504,7 @@
 		(dnp no)
 		(uuid "1da05206-f376-4eb9-ac8e-aa9c245eb196")
 		(property "Reference" "#PWR014"
-			(at 154.94 368.3 0)
+			(at 33.02 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20433,7 +20513,7 @@
 			)
 		)
 		(property "Value" "+4V"
-			(at 154.178 359.918 0)
+			(at 32.258 311.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20441,7 +20521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 364.49 0)
+			(at 33.02 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20450,7 +20530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 364.49 0)
+			(at 33.02 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,7 +20539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 154.94 364.49 0)
+			(at 33.02 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20471,7 +20551,7 @@
 			(uuid "a8613951-2d01-41b1-b50d-a1037e1bd9f5")
 		)
 		(instances
-			(project ""
+			(project "meshtastic-node"
 				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
 					(reference "#PWR014")
 					(unit 1)
@@ -21318,76 +21398,6 @@
 			(project ""
 				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna_Shield")
-		(at 161.29 317.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b837eae-31cf-4a9b-8213-4e6caedc84ae")
-		(property "Reference" "AE1"
-			(at 165.1 315.5949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna_Shield"
-			(at 165.1 318.1349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna with extra pin for shielding"
-			(at 161.29 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "316c5308-70fe-47b4-82bd-b3bf2aaad1c2")
-		)
-		(pin "1"
-			(uuid "d54579f2-0a49-449b-b808-c4bf2616d307")
-		)
-		(instances
-			(project ""
-				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
-					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -22827,7 +22837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 323.85 0)
+		(at 163.83 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22835,7 +22845,7 @@
 		(dnp no)
 		(uuid "3e1c8985-6de6-4f4f-9827-1f340fa75c33")
 		(property "Reference" "#PWR018"
-			(at 163.83 330.2 0)
+			(at 163.83 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22844,7 +22854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 327.66 0)
+			(at 163.83 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22852,7 +22862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 323.85 0)
+			(at 163.83 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22861,7 +22871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 323.85 0)
+			(at 163.83 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22870,7 +22880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 323.85 0)
+			(at 163.83 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23514,71 +23524,6 @@
 			(project "meshtastic-node"
 				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 33.02 316.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5289dd03-c1ce-4ca1-b951-5b9480ac100e")
-		(property "Reference" "#PWR072"
-			(at 33.02 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 311.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3bba974-1d8d-4f98-9b11-aac09aeb6fd7")
-		)
-		(instances
-			(project "meshtastic-node"
-				(path "/78793cd8-747c-4577-866f-2f46519ee26a"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
