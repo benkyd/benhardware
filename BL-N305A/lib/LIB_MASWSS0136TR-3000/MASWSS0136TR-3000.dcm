@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MASWSS0136TR-3000
+D RF Switch ICs DC-3.0GHz ISO 27dB IL .4dB @2.4GHz
+K
+F https://rs.componentsearchengine.com/Datasheets/1/MASWSS0136TR-3000.pdf
+$ENDCMP
+#
+#End Doc Library
